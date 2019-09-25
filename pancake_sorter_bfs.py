@@ -1,0 +1,3 @@
+def sort(pancakes)
+    steps = []
+    
