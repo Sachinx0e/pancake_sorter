@@ -31,6 +31,14 @@ class Pancake:
         else:
             return pancakes[0:]
 
+    def tie_braking_id(self):
+        id = str(self.id)
+        if self.orientation == "b":
+            id = id + "0"
+        else:
+            id = id + "1"
+        return id
+
     def __eq__(self, other):
         if isinstance(other, Pancake):
             return self.id == other.id and self.orientation == other.orientation
