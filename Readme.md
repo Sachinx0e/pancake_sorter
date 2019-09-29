@@ -1,5 +1,6 @@
 # Requirements
 Operating System : Ubuntu 18.04 LTS
+Python Version : 3.x
 
 # Instructions
 pip install -r requirements.txt

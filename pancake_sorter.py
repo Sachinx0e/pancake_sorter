@@ -1,11 +1,9 @@
 from collections import deque
-from treelib import Node, Tree
 from state import *
 from misc import *
 
 def sort_bfs(input_pancakes):
     fringe = deque([])
-    tree = Tree()
 
     # create the root node
     root_state = State(-1,input_pancakes)
@@ -37,8 +35,6 @@ def sort_bfs(input_pancakes):
 
 def sort_a_star(input_pancakes):
     fringe = deque([])
-    tree = Tree()
-
     closed_set = []
 
     # create the root node
